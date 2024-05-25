@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+/* Header */
+
+#download-play {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+#download-play:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+#download-apple {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+#download-apple:hover {
+  background-color: #d3d4d5;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#dog-img {
+  border-radius: 50%;
+}
+
+/* Testimonial */
+
+.pebbles-text {
+  font-size: x-large;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.testimonial-pics-container {
+  display: flex;
+}
+
+.testimonial-pics {
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Pricing */
+
+#button-labrador {
+  background-color: black;
+  border-color: black !important;
+}
+
+#button-labrador:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#button-mastiff {
+  background-color: black;
+  border-color: black !important;
+}
+
+#button-mastiff:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#card-body-mastiff {
+  border-color: black !important;
+}
+
+#header-mastiff {
+  background-color: black !important;
+}
+
+#button-chihuahua {
+  background: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0);
+  border-color: black !important;
+}
